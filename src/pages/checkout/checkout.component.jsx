@@ -46,4 +46,5 @@ const mapStateToProps = createStructuredSelector({
 
 });
 
+export default connect(mapStateToProps)
 export default connect(mapStateToProps)(CheckoutPage);
